@@ -1,0 +1,656 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        167.02890014648438,
+        167.02890014648438,
+        0.0
+      ],
+      "min": [
+        -167.02890014648438,
+        -167.02890014648438,
+        0.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 48,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        2.9802322387695313e-08,
+        2.9802322387695313e-08
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 96,
+      "componentType": 5126,
+      "count": 32205,
+      "max": [
+        108.65823364257813,
+        45.91414260864258,
+        49.82522964477539
+      ],
+      "min": [
+        -80.83148193359375,
+        -50.095829010009766,
+        -23.398569107055664
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 386556,
+      "componentType": 5126,
+      "count": 32205,
+      "max": [
+        1.0,
+        0.9999999403953552,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999982714653015,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 32205,
+      "max": [
+        0.9984956383705139,
+        0.9994999766349792
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.0005000000237487257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 257672,
+      "componentType": 5126,
+      "count": 32205,
+      "max": [
+        4.227924346923828,
+        4.232178211212158
+      ],
+      "min": [
+        -3.2289276123046875,
+        -3.2321786880493164
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 515312,
+      "componentType": 5126,
+      "count": 32205,
+      "max": [
+        0.9984956383705139,
+        0.9994999766349792
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.0005000000237487257
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5125,
+      "count": 178038,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 773016,
+      "componentType": 5126,
+      "count": 2007,
+      "max": [
+        105.91764068603516,
+        30.76422691345215,
+        -22.35281753540039
+      ],
+      "min": [
+        -76.93184661865234,
+        -43.12998962402344,
+        -29.593528747558594
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 797100,
+      "componentType": 5126,
+      "count": 2007,
+      "max": [
+        1.0,
+        0.9919649362564087,
+        0.7271146178245544
+      ],
+      "min": [
+        -1.0,
+        -0.9919649362564087,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 772952,
+      "componentType": 5126,
+      "count": 2007,
+      "max": [
+        0.4607031047344208,
+        0.9912577867507935
+      ],
+      "min": [
+        0.0005000000237487257,
+        0.2492368221282959
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 789008,
+      "componentType": 5126,
+      "count": 2007,
+      "max": [
+        0.20963045954704285,
+        4.170593738555908
+      ],
+      "min": [
+        -3.2289276123046875,
+        -1.373659372329712
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 712176,
+      "componentType": 5125,
+      "count": 10824,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 821184,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        102.6097412109375,
+        27.863391876220703,
+        -29.487855911254883
+      ],
+      "min": [
+        -73.62734985351563,
+        -40.22915267944336,
+        -29.86975860595703
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 823392,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        1.0,
+        0.979852020740509,
+        0.0
+      ],
+      "min": [
+        -1.0,
+        -0.979852020740509,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 805064,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        0.259403795003891,
+        0.2952664792537689
+      ],
+      "min": [
+        0.21912400424480438,
+        0.29100197553634644
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 806536,
+      "componentType": 5126,
+      "count": 184,
+      "max": [
+        -1.294443130493164,
+        -1.029733657836914
+      ],
+      "min": [
+        -1.595407247543335,
+        -1.0615973472595215
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 755472,
+      "componentType": 5125,
+      "count": 840,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "MADE.COM (https://sketchfab.com/made-it)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/orson-3-seater-sofa-bed-graphite-grey-cbaecc8d977a43e6bd0e098877ef5539",
+      "title": "Orson 3 Seater Sofa Bed, Graphite Grey"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 758832,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 808008,
+      "byteOffset": 758832,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 825600,
+      "byteOffset": 1566840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2392440,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/FLOOR_baseColor.png"
+    },
+    {
+      "uri": "textures/FABRIC_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/FABRIC_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "FLOOR",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "FABRIC",
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 0.6358612804878049
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.03503680148763414,
+        0.0071968776755735675,
+        0.0
+      ],
+      "name": "LEGS",
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 0.709032012195122
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0392157,
+          0.0117647,
+          0.00784314,
+          1.0
+        ],
+        "metallicFactor": 0.39800843052894064,
+        "metallicRoughnessTexture": {
+          "index": 2
+        },
+        "roughnessFactor": 0.1302934562635122
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PLASTIC",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0117647,
+          0.0117647,
+          0.0117647,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8929713596
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Plane001_FLOOR_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Orson_3_Seater_Sofa_Bed_FABRIC_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6,
+            "TEXCOORD_1": 7,
+            "TEXCOORD_2": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Orson_3_Seater_Sofa_Bed_LEGS_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Orson_3_Seater_Sofa_Bed_PLASTIC_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "848baaa597d44953a7e63cb2ce72bfea.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Plane001"
+    },
+    {
+      "mesh": 0,
+      "name": "Plane001_FLOOR_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.05433082580566406,
+        0.0,
+        1.0
+      ],
+      "name": "Orson_3_Seater_Sofa_Bed"
+    },
+    {
+      "children": [
+        7,
+        8,
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -13.913375854492188,
+        2.09084153175354,
+        29.8697566986084,
+        1.0
+      ],
+      "name": "Object_6"
+    },
+    {
+      "mesh": 1,
+      "name": "Orson_3_Seater_Sofa_Bed_FABRIC_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Orson_3_Seater_Sofa_Bed_LEGS_0"
+    },
+    {
+      "mesh": 3,
+      "name": "Orson_3_Seater_Sofa_Bed_PLASTIC_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

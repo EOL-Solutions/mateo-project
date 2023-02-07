@@ -1,0 +1,8 @@
+{
+    "routes": [
+        {"path": "lars_accent_chair_diego_grey", "text":"Furniture 1", "scale": [0.7, 0.7, 0.7]},
+        {"path": "orson_3_seater_sofa_bed_graphite_grey", "text":"Furniture 2", "scale":[0.4, 0.4, 0.4]},
+        {"path": "juno_5_seater_corner_sofa_marl_grey", "text":"Furniture 3", "scale":[0.4, 0.4, 0.4]},
+        {"path": "kya_extending_shelves_oak_and_grey", "text": "Furniture 4", "scale": [0.4, 0.4, 0.4]}
+    ]
+}
