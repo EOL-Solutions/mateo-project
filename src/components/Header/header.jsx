@@ -8,16 +8,16 @@ export default function Header() {
         <div className={styles['logo']}>FURNITURES</div>
         <nav>
           <ul>
-            <li>
+            <li className={styles['li']}>
               <a href='/'>discover</a>
             </li>
-            <li>
+            <li className={styles['li']}>
               <a href='/'>products</a>
             </li>
-            <li>
+            <li className={styles['li']}>
               <a href='/'>solutions</a>
             </li>
-            <li>
+            <li className={styles['li']}>
               <a href='/'>reach</a>
             </li>
             <li className={styles['btn']}>
