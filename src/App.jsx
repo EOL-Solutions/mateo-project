@@ -81,7 +81,7 @@ function App() {
                     domContent={domContent}
                     scale={item.scale}>
                       <div className="container">
-                        <h2 className="title">{item.text}</h2>
+                        <span className="title">{item.text}</span>
                       </div>
                   </HTMLContent>
                 ))
