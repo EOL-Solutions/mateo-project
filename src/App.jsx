@@ -44,6 +44,19 @@ const HTMLContent = ({children, modelPath, positionY,domContent,scale=[1, 1, 1]}
   )
 }
 
+const Loading = () => {
+  return (
+    <div className="loading-container">
+      <div className='loading-ball loading-ball-1'></div>
+      <div className='loading-ball loading-ball-2'></div>
+      <div className='loading-ball loading-ball-3'></div>
+      <div className='loading-ball loading-ball-4'></div>
+      <div className='loading-ball loading-ball-5'></div>
+    </div>
+  )
+
+}
+
 function App() {
   const [count, setCount] = useState(0)
   const domContent = useRef()
@@ -52,37 +65,36 @@ function App() {
   useEffect(() => void onScroll({ target: scrollArea.current }), [])
 
   return (
-   <>
-      <Header />
-      <Canvas
-        colorManagement
-        camera={{ position: [0, 0, 120], fov: 90 }}        
-        >
-          <Lights />
-          <Suspense fallback={null}>
-            {
-              models.routes.map((item) => (
-                <HTMLContent 
-                  positionY={item.position}
-                  modelPath={`/models/${item.path}/scene.gltf`}
-                  domContent={domContent}
-                  scale={item.scale}>
-                    <div className="container">
-                      <h2 className="title">{item.text}</h2>
-                    </div>
-                </HTMLContent>
-              ))
-            }
-          </Suspense>         
-      </Canvas>
-      <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>
-        <div style={{position:'sticky', top:0} } ref={domContent}>
+   <>      
+    <Suspense fallback={<Loading />}>
+        <Header />
+        <Canvas
+          colorManagement
+          camera={{ position: [0, 0, 120], fov: 90 }}        
+          >
+            <Lights />
+              {
+                models.routes.map((item) => (
+                  <HTMLContent 
+                    positionY={item.position}
+                    modelPath={`/models/${item.path}/scene.gltf`}
+                    domContent={domContent}
+                    scale={item.scale}>
+                      <div className="container">
+                        <h2 className="title">{item.text}</h2>
+                      </div>
+                  </HTMLContent>
+                ))
+              }</Canvas>
+              <div className="scrollArea" ref={scrollArea} onScroll={onScroll}>
+                <div style={{position:'sticky', top:0} } ref={domContent}>
 
-        </div>
-        <div style={{height:`${state.sections * 75}vh`}}>
+                </div>
+                <div style={{height:`${state.sections * 75}vh`}}>
 
-        </div>
-      </div>
+                </div>
+              </div>
+      </Suspense>                 
    </>
   )
 }
