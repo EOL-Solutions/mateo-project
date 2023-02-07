@@ -10,6 +10,9 @@
     width: 100vw;
     padding: 60px;
     background: linear-gradient(to right, rgb(255, 239, 186), rgb(255, 255, 255));
+    @media (max-width: 720px){
+      left: 0px;
+    }
     .header-inner {
       display: flex;
       align-items: center;
