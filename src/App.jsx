@@ -61,9 +61,9 @@ function App() {
           <Lights />
           <Suspense fallback={null}>
             {
-              models.routes.map((item, index) => (
+              models.routes.map((item) => (
                 <HTMLContent 
-                  positionY={250*(models.routes.length - index - 3)}
+                  positionY={item.position}
                   modelPath={`/models/${item.path}/scene.gltf`}
                   domContent={domContent}
                   scale={item.scale}>
@@ -79,7 +79,7 @@ function App() {
         <div style={{position:'sticky', top:0} } ref={domContent}>
 
         </div>
-        <div style={{height:`${state.sections * 100}vh`}}>
+        <div style={{height:`${state.sections * 75}vh`}}>
 
         </div>
       </div>
